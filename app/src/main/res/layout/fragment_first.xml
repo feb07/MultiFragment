@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_no_param_no_result"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="no_param_no_result" />
+
+        <Button
+            android:id="@+id/btn_only_param"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="only_param" />
+
+        <Button
+            android:id="@+id/btn_only_result"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="only_result" />
+        <Button
+            android:id="@+id/btn_param_and_result"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="param_and_result" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
